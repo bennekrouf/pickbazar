@@ -4,19 +4,6 @@
   "license": "MIT",
   "private": true,
   "author": "RedQ",
-  "workspaces": [
-    "admin/*",
-    "shop"
-  ],
-  "scripts": {
-    "clean": "yarn workspaces run rimraf \"{.next,node_modules,__generated__,.cache,src/graphql/*.d.ts,src/framework/graphql/**/*.d.ts}\" && rimraf node_modules",
-    "dev:shop-rest": "yarn workspace @pick-bazar/shop dev",
-    "build:shop-rest": "yarn workspace @pick-bazar/shop build",
-    "start:shop-rest": "yarn workspace @pick-bazar/shop start",
-    "dev:admin-rest": "yarn workspace @marvel/admin dev",
-    "build:admin-rest": "yarn workspace @marvel/admin build",
-    "start:admin-rest": "yarn workspace @marvel/admin start"
-  },
   "devDependencies": {
     "prettier": "2.4.0",
     "rimraf": "3.0.2"

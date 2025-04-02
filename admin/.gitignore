@@ -43,7 +43,3 @@ __generated__
 # PWA
 workbox-*.js
 sw.js
-
-# IDE
-.idea/
-.vscode/
